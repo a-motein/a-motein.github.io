@@ -1,0 +1,95 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) { 
+
+
+
+
+  /* Services Responsive CSS  */
+
+    #services .mix {
+        width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+    }
+
+
+
+
+
+
+
+
+ }
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+    /* Services Responsive CSS  */
+
+    #services .mix {
+        width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+    }
+    
+
+
+
+ }
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+
+    /* Services Responsive CSS  */
+
+    #services .mix {
+        width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+    }
+
+
+
+ }
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+    /* Services Responsive CSS  */
+
+    #services .mix{
+        width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
+    }
+
+
+
+ }
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+    /* Services Responsive CSS  */
+
+    #services .mix{
+        width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
+    }
+
+
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+
+    /* Services Responsive CSS  */
+
+    #services .mix{
+        width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
+    }
+
+
+
+
+ }
