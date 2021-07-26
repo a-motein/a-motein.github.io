@@ -3,7 +3,7 @@ $(document).ready(function(){
 
  
 
-    // ScrollSpy JS 
+    // ScrollSpy JQ
 
 
     $('body').scrollspy({
@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 
 
-    //   Section Fade Animation 
+    //   Section Fade Animation JQ
 
 
     AOS.init({
@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 
 
-    // Scroll CSS Color Change 
+    // Scroll CSS Color Change JQ
 
 
       $(window).scroll(function(){
@@ -42,11 +42,11 @@ $(document).ready(function(){
 
 
 
-    // Smooth Scroll 
+    // Smooth Scroll JQ
 
 
     $(document).ready(function(){
-      // Add smooth scrolling to all links
+
       $(".nav-link").on('click', function(event) {
     
         if (this.hash !== "") {
@@ -56,7 +56,7 @@ $(document).ready(function(){
     
           $('html, body').animate({
             scrollTop: $(hash).offset().top
-          }, 1200, function(){
+          }, 800, function(){
        
             window.location.hash = hash;
           });
@@ -68,7 +68,7 @@ $(document).ready(function(){
 
 
 
-    //   Type JS 
+    //   Type JQ
 
     var typed = new Typed('.type', {
         strings: [
@@ -83,7 +83,7 @@ $(document).ready(function(){
 
 
 
-      // Mouse Shape ScrollWheel 
+      // Mouse Shape ScrollWheel JQ
 
       interval = window.setInterval(function(){
         $('.scrollwheel').animate({
@@ -98,7 +98,7 @@ $(document).ready(function(){
 
 
 
-      // Progress Bar 
+      // Progress Bar JQ
 
 
         $(window).scroll(function(){
@@ -136,6 +136,8 @@ $(document).ready(function(){
 
 
 
+
+
         // Simple LightBox JQ Plugin 
 
         var lightbox = new SimpleLightbox('.mix a', { 
@@ -146,21 +148,8 @@ $(document).ready(function(){
 
 
 
-        //  Load More Button JS
 
-        // $('.mix').slice(0, 5).show();
-        
-        // $('.loadMore').on('click', function(){
 
-        //   $('.mix:hidden').slice(0, 5).show();
-
-        //   if($('.mix:hidden').length==0);
-
-        //   {
-        //     $('.loadMore').fadeOut();
-        //   }
-
-        // });
 
 
 

@@ -67,7 +67,7 @@ header nav.fixed-top{
 
 
 header img{
-    width: 80px;
+    width: 75px;
     min-height: auto;
 }
 
@@ -560,11 +560,10 @@ header .navbar-nav a{
 
 
 
-
 #services .mix {
     background: #fff;
     border-radius: 2px;
-    margin-bottom: 1.5rem;
+    margin-bottom: .5rem;
     position: relative;
     display: inline-block;
     vertical-align: top;
@@ -634,15 +633,8 @@ header .navbar-nav a{
   }
 
 
-  #services .container-fluid .btn.loadMore {
-    width: 97%;
-    height: auto;
-    padding: 15px 0;
-    background-color: #E9E9E9;
-    font-size: 1rem;
-    font-weight: 400;
-    text-transform: uppercase;
-}
+
+
 
 
 
