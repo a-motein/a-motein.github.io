@@ -67,8 +67,8 @@ header nav.fixed-top{
 
 
 header img{
-    width: 6vw;
-    min-height: 5vh;
+    width: 80px;
+    min-height: auto;
 }
 
 
@@ -97,7 +97,7 @@ header .navbar .nav-item{
 header .navbar .nav-item .nav-link{
     padding: 0;
     width: 100%;
-    height: 25px;
+    height: 26px;
 }
 
 
@@ -105,7 +105,7 @@ header .navbar .nav-item .nav-link{
 
 header .navbar .navbar-collapse.scrolled-color,
 header .navbar .navbar-toggler.scrolled-color{
-    background-color: #C98192;
+    background-color: #10C9C3;
     width: auto;
     height: 80px;
     transition: all ease-in-out .5s;
@@ -114,8 +114,8 @@ header .navbar .navbar-toggler.scrolled-color{
 
 header .navbar-light .navbar-nav .nav-link.active,
 header .navbar-light .navbar-nav .show>.nav-link{
-    color: #C98192;
-    border-bottom: 5px solid #C98192;
+    color: #10C9C3;
+    border-bottom: 3px solid #10C9C3;
     border-radius: 3px;
     transition: all ease-in-out .2s;
     animation: line 2s ease-in-out 1 forwards;
@@ -158,8 +158,8 @@ header .navbar-light .navbar-nav .show>.nav-link{
 
 header .navbar-light .navbar-nav .nav-link:focus,
 header .navbar-light .navbar-nav .nav-link:hover{
-    color: #C98192;
-    border-bottom: 5px solid #C98192;
+    color: #10C9C3;
+    border-bottom: 3px solid #10C9C3;
     border-radius: 3px;
     transition: all ease-in-out .2s;
     animation: line 2s ease-in-out 1 forwards;
@@ -201,8 +201,8 @@ header .navbar-light .navbar-nav .nav-link:hover{
 
 header .navbar .navbar-collapse.scrolled-color .nav-link.active,
 header .navbar .navbar-collapse.scrolled-color .show>.nav-link{
-    color: #CFCBD9;
-    border-bottom: 5px solid #CFCBD9;
+    color: #E9E9E9;
+    border-bottom: 3px solid #E9E9E9;
     border-radius: 3px;
     transition: all ease-in-out .2s;
     animation: line 2s ease-in-out 1 forwards;
@@ -246,8 +246,8 @@ header .navbar .navbar-collapse.scrolled-color .show>.nav-link{
 
 header .navbar .navbar-collapse.scrolled-color .nav-link:focus,
 header .navbar .navbar-collapse.scrolled-color .nav-link:hover{
-    color: #CFCBD9;
-    border-bottom: 5px solid #CFCBD9;
+    color: #E9E9E9;
+    border-bottom: 3px solid #E9E9E9;
     border-radius: 3px;
     transition: all ease-in-out .2s;
     animation: line 2s ease-in-out 1 forwards;
@@ -290,8 +290,8 @@ header .navbar .navbar-collapse.scrolled-color .nav-link:hover{
 
 
 header .navbar-nav a{
-    font-size: .9rem;
-    font-weight: 800;
+    font-size: .85rem;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -319,7 +319,7 @@ header .navbar-nav a{
 #particles-js .headText.position-absolute span{
     font-size: 1.5em;
     font-weight: 700;
-    color: #C98192;
+    color: #10C9C3;
 }
 
 
@@ -339,7 +339,7 @@ header .navbar-nav a{
     top: 90vh;
 	margin-left: -30px;
 	bottom: 40px;
-	color: #C98192;
+	color: #10C9C3;
     background: url(../imgs/mouse.svg) no-repeat center center;
 }
 
@@ -349,7 +349,7 @@ header .navbar-nav a{
 	top: 10px;
 	height: 10px;
 	width: 2px;
-	background: #C98192;
+	background: #10C9C3;
 	display: block;
 	border-radius: 1px;
 	margin-left: -1px;
@@ -360,10 +360,10 @@ header .navbar-nav a{
 
 
 #particles-js .container .headText.position-absolute .btn{
-    background-color: #C98192;
+    background-color: #10C9C3;
     color: #E9E9E9;
-    padding: 2% 3%;
-    border: 2px solid #C98192;
+    padding: 1.2% 3%;
+    border: 2px solid #10C9C3;
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 2px;
@@ -376,8 +376,8 @@ header .navbar-nav a{
 
 #particles-js .container .headText.position-absolute .btn:hover{
     background-color: #E9E9E9;
-    color: #C98192;
-    border: 2px solid #C98192;
+    color: #10C9C3;
+    border: 2px solid #10C9C3;
 }
 
 
@@ -452,7 +452,7 @@ header .navbar-nav a{
 }
 
 #work .proggress{
-    background-color: #C98192; 
+    background-color: #10C9C3; 
     height: 3px; 
     width: 10px;
     border-radius: 3px;
@@ -488,7 +488,7 @@ header .navbar-nav a{
 
 #process .container .count-icon{
     margin: auto 5%;
-    color: #C98192;
+    color: #10C9C3;
   }
 
 #process .container .count-icon i{
@@ -498,7 +498,7 @@ header .navbar-nav a{
   #process .container .counter span{
       font-size: 3rem;
       font-weight: 700;
-      color: #C98192;
+      color: #10C9C3;
   }
 
 
@@ -507,7 +507,7 @@ header .navbar-nav a{
     font-size: .9rem;
     font-weight: 800;
     text-transform: uppercase;
-    color: #C98192;
+    color: #10C9C3;
 }
 
 
@@ -527,12 +527,12 @@ header .navbar-nav a{
 
 
 #services .row .filter-btn{
-    background-color: #C98192;
+    background-color: #10C9C3;
     color: #fff;
     padding: 0.5% 2%;
     margin-right: 1%;
     margin-bottom: 3%;
-    border: 2px solid #C98192;
+    border: 2px solid #10C9C3;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 700;
@@ -547,14 +547,14 @@ header .navbar-nav a{
 
 #services .row .filter-btn:hover{
     background-color: #fff;
-    color: #C98192;
-    border: 2px solid #C98192;
+    color: #10C9C3;
+    border: 2px solid #10C9C3;
 }
 
 #services .btn-check:focus+.btn, .btn:focus{
     background-color: #fff !important;
-    color: #C98192 !important;
-    border: 2px solid #C98192 !important;
+    color: #10C9C3 !important;
+    border: 2px solid #10C9C3 !important;
 }
 
 
@@ -575,7 +575,7 @@ header .navbar-nav a{
 #services .web:before {
     content: 'Web Design';
     display: inline-block;
-    background-color: #C98192;
+    background-color: #10C9C3;
     font-weight: 500;
     color: #fff;
     width: 100%;
@@ -585,7 +585,7 @@ header .navbar-nav a{
 #services .graphics:before {
     content: 'Graphics Design';
     display: inline-block;
-    background-color: #C98192;
+    background-color: #10C9C3;
     font-weight: 500;
     color: #fff;
     width: 100%;
@@ -596,7 +596,7 @@ header .navbar-nav a{
 #services .wordpress:before {
     content: 'WordPress';
     display: inline-block;
-    background-color: #C98192;
+    background-color: #10C9C3;
     font-weight: 500;
     color: #fff;
     width: 100%;

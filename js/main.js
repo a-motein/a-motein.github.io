@@ -45,22 +45,24 @@ $(document).ready(function(){
     // Smooth Scroll 
 
 
-    $(".nav-link").on('click', function(scrollY) {
-
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $(".nav-link").on('click', function(event) {
+    
         if (this.hash !== "") {
-
-          scrollY.preventDefault();
+          event.preventDefault();
     
           var hash = this.hash;
     
           $('html, body').animate({
             scrollTop: $(hash).offset().top
           }, 1200, function(){
-    
+       
             window.location.hash = hash;
           });
         } 
       });
+    });
 
 
 
@@ -105,19 +107,19 @@ $(document).ready(function(){
               percentage:85,
               radius: '3px',
               height: '5px',
-              fillBackgroundColor: '#C98192'
+              fillBackgroundColor: '#10C9C3'
               });
               $('#wd').LineProgressbar({
               percentage:95,
               radius: '3px',
               height: '5px',
-              fillBackgroundColor: '#C98192'
+              fillBackgroundColor: '#10C9C3'
               });
               $('#wp').LineProgressbar({
               percentage:80,
               radius: '3px',
               height: '5px',
-              fillBackgroundColor: '#C98192'
+              fillBackgroundColor: '#10C9C3'
               });     
     
   
