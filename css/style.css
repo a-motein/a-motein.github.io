@@ -399,16 +399,16 @@ header .navbar-nav a{
  /* About CSS  */
 
 
-#about{
+.about{
      width: 50%;
-     padding: 10% 0;
+     padding: 5% 0;
      margin: auto;
      text-align: center;
      background-color: #fff;
  }
 
 
-#about p{
+.about p{
     font-size: 1rem;
    font-weight: 400;
 }
@@ -422,12 +422,12 @@ header .navbar-nav a{
 
 
 
-  /* Work CSS  */
+  /* About Two CSS  */
 
 
 
-  #work{
-    padding: 10% 0;
+.aboutTwo{
+    padding: 5% 0;
     background-image: url(../imgs/Progress-img.jpg);
     background-position: right, center;
     background-repeat: no-repeat;
@@ -437,12 +437,12 @@ header .navbar-nav a{
 
 
 
-#work h1{
+.aboutTwo h1{
     padding-bottom: 5%;
 }
 
 
-#work .progressbar{
+.aboutTwo .progressbar{
     width: 100%;
     background-color: #fff;
     border-radius: 3px;
@@ -451,7 +451,7 @@ header .navbar-nav a{
 	position: relative;
 }
 
-#work .proggress{
+.aboutTwo .proggress{
     background-color: #10C9C3; 
     height: 3px; 
     width: 10px;
@@ -459,7 +459,7 @@ header .navbar-nav a{
 }
 
 
-.percentCount{
+.aboutTwo .percentCount{
 	float:right;
 	margin-top: 8px;
 	clear: both;
@@ -474,28 +474,28 @@ header .navbar-nav a{
 
 
   
-  /* Process CSS  */
+  /* About Three CSS  */
 
 
 
-  #process{
+.aboutThree{
     width: auto;
-    padding: 15% 0;
+    padding: 5% 0;
     margin: auto;
     background-color: #E9E9E9;
   }
 
 
-#process .container .count-icon{
+.aboutThree .container .count-icon{
     margin: auto 5%;
     color: #10C9C3;
   }
 
-#process .container .count-icon i{
+.aboutThree .container .count-icon i{
     font-size: 3.2rem;
   }
 
-  #process .container .counter span{
+.aboutThree .container .counter span{
       font-size: 3rem;
       font-weight: 700;
       color: #10C9C3;
@@ -503,7 +503,7 @@ header .navbar-nav a{
 
 
 
-#process .container .counter h4{
+.aboutThree .container .counter h4{
     font-size: .9rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -513,20 +513,20 @@ header .navbar-nav a{
 
 
 
-  /* Services CSS  */
+  /* Work CSS  */
 
 
 
-#services{
+.work{
     padding: 4% 0;
   }
 
-  #services h1{
+.work h1{
       margin-bottom: 3%;
   }
 
 
-#services .row .filter-btn{
+.work .row .filter-btn{
     background-color: #10C9C3;
     color: #fff;
     padding: 0.5% 2%;
@@ -539,19 +539,19 @@ header .navbar-nav a{
     transition: all ease-in-out 1s;
 }
 
-#services .row .last-btn.filter-btn{
+.work .row .last-btn.filter-btn{
     margin-right: 0;
 }
 
 
 
-#services .row .filter-btn:hover{
+.work .row .filter-btn:hover{
     background-color: #fff;
     color: #10C9C3;
     border: 2px solid #10C9C3;
 }
 
-#services .btn-check:focus+.btn, .btn:focus{
+.work .btn-check:focus+.btn, .btn:focus{
     background-color: #fff !important;
     color: #10C9C3 !important;
     border: 2px solid #10C9C3 !important;
@@ -560,7 +560,7 @@ header .navbar-nav a{
 
 
 
-#services .mix {
+.work .mix {
     background: #fff;
     border-radius: 2px;
     margin-bottom: .5rem;
@@ -571,7 +571,7 @@ header .navbar-nav a{
 
 
 
-#services .web:before {
+.work .web:before {
     content: 'Web Design';
     display: inline-block;
     background-color: #10C9C3;
@@ -581,7 +581,7 @@ header .navbar-nav a{
     padding: 5px 0;
 }
 
-#services .graphics:before {
+.work .graphics:before {
     content: 'Graphics Design';
     display: inline-block;
     background-color: #10C9C3;
@@ -592,7 +592,7 @@ header .navbar-nav a{
 }
 
 
-#services .wordpress:before {
+.work .wordpress:before {
     content: 'WordPress';
     display: inline-block;
     background-color: #10C9C3;
@@ -603,7 +603,7 @@ header .navbar-nav a{
 }
 
 
-#services .imgSlide {
+.work .imgSlide {
     position: absolute;
     bottom: 100%;
     left: 0;
@@ -615,12 +615,12 @@ header .navbar-nav a{
     transition: all 0.6s ease-in-out;
   }
   
-  #services .container-fluid .mix:hover .imgSlide {
+.work .container-fluid .mix:hover .imgSlide {
     bottom: 0;
     height: 100%;
   }
   
-  #services .container-fluid span i {
+.work .container-fluid span i {
     color: #fff;
     font-size: 20px;
     position: absolute;
@@ -634,19 +634,7 @@ header .navbar-nav a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /* Process CSS  */
 
 
 

@@ -6,7 +6,7 @@
 
   /* Services Responsive CSS  */
 
-    #services .mix {
+    .work .mix {
         width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
     }
 
@@ -25,7 +25,7 @@
 
     /* Services Responsive CSS  */
 
-    #services .mix {
+    .work .mix {
         width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
     }
     
@@ -41,7 +41,7 @@
 
     /* Services Responsive CSS  */
 
-    #services .mix {
+    .work .mix {
         width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
     }
 
@@ -56,7 +56,7 @@
 
     /* Services Responsive CSS  */
 
-    #services .mix{
+    .work .mix{
         width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
     }
 
@@ -71,7 +71,7 @@
 
     /* Services Responsive CSS  */
 
-    #services .mix{
+    .work .mix{
         width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
     }
 
@@ -85,7 +85,7 @@
 
     /* Services Responsive CSS  */
 
-    #services .mix{
+    .work .mix{
         width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
     }
 
