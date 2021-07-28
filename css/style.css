@@ -518,7 +518,7 @@ header .navbar-nav a{
 
 
 .work{
-    padding: 4% 0;
+    padding: 5% 0;
   }
 
 .work h1{
@@ -635,6 +635,12 @@ header .navbar-nav a{
 
 
     /* Process CSS  */
+
+
+.process {
+    padding: 5% 0;
+    background-color: #E9E9E9;
+}
 
 
 
