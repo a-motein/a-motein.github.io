@@ -845,9 +845,39 @@ header .navbar-nav a{
 
 
 
+    /* Footer CSS  */
 
 
 
+#footSec{
+    background-color: #141414;
+    padding: 5% 0;
+}
+
+#footSec .row h4.pb-2{
+    font-size: 1rem;
+    color: #E9E9E9;
+}
+
+#footSec .row p{
+    font-size: .8rem;
+    color: #E9E9E9;
+    margin: 3px;
+}
+
+
+#footSec .row ul li a{
+    font-size: .8rem;
+    color: #E9E9E9;
+    margin: 3px;
+}
+
+
+
+
+#footSec .row ul li a:hover{
+    color: #ccc;
+}
 
 
 
