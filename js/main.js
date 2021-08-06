@@ -6,10 +6,9 @@ $(document).ready(function(){
     // ScrollSpy JQ
 
 
-    $('body').scrollspy({
-      target: '.navbar',
-      offset: 10
-    });
+    var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+      target: '.navbar'
+    })
 
 
 
@@ -21,7 +20,7 @@ $(document).ready(function(){
 
     AOS.init({
         offset: 120, 
-        delay: 0, 
+        delay: 4, 
         duration: 400, 
         easing: 'ease-in-out'
     });
@@ -47,14 +46,14 @@ $(document).ready(function(){
 
     $(document).ready(function(){
 
-      $(".nav-link").on('click', function(event) {
+      $("a").on('click', function(event) {
     
         if (this.hash !== "") {
           event.preventDefault();
     
           var hash = this.hash;
     
-          $('html, body').animate({
+          $('body').animate({
             scrollTop: $(hash).offset().top
           }, 800, function(){
        
@@ -144,6 +143,22 @@ $(document).ready(function(){
 
 
          });
+
+
+
+
+
+        //  Slider JQ
+
+        $(".owl-carousel").owlCarousel({
+          items:1,
+          autoplay:false,
+          margin:10,
+          loop:true,
+          responsiveClass: true,
+          dots:true,
+          nav:false
+      });
 
 
 

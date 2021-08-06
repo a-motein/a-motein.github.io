@@ -101,6 +101,11 @@ header .navbar .nav-item .nav-link{
 }
 
 
+header .navbar-brand{
+    padding-top: 0;
+    margin-right: .5rem;
+}
+
 
 
 header .navbar .navbar-collapse.scrolled-color,
@@ -112,13 +117,37 @@ header .navbar .navbar-toggler.scrolled-color{
 }
 
 
+header .navbar-light .navbar-nav .nav-link{
+    position: relative;
+    width: 100%;
+    transition: all ease-in-out .2s;
+}
+
+
+header .navbar-light .navbar-nav .nav-link::after{
+    width: 0%;
+    background-color: #10C9C3;
+    content: "";
+    height: 3px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    transition: all ease-in-out .5s;
+}
+
+
 header .navbar-light .navbar-nav .nav-link.active,
 header .navbar-light .navbar-nav .show>.nav-link{
     color: #10C9C3;
-    border-bottom: 3px solid #10C9C3;
-    border-radius: 3px;
-    transition: all ease-in-out .2s;
     animation: line 2s ease-in-out 1 forwards;
+}
+
+header .navbar-light .navbar-nav .nav-link.active::after,
+header .navbar-light .navbar-nav .show>.nav-link::after{
+    background-color: #10C9C3;
+    width: 100%;
 }
 
 @keyframes line {
@@ -159,10 +188,15 @@ header .navbar-light .navbar-nav .show>.nav-link{
 header .navbar-light .navbar-nav .nav-link:focus,
 header .navbar-light .navbar-nav .nav-link:hover{
     color: #10C9C3;
-    border-bottom: 3px solid #10C9C3;
-    border-radius: 3px;
-    transition: all ease-in-out .2s;
+    width: 100%;
     animation: line 2s ease-in-out 1 forwards;
+}
+
+
+header .navbar-light .navbar-nav .nav-link:focus::after,
+header .navbar-light .navbar-nav .nav-link:hover::after{
+    background-color: #10C9C3;
+    width: 100%;
 }
 
 @keyframes line {
@@ -369,7 +403,7 @@ header .navbar-nav a{
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-top: 1%;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: all ease-in-out 1s;
 }
 
@@ -482,13 +516,13 @@ header .navbar-nav a{
     width: auto;
     padding: 5% 0;
     margin: auto;
-    background-color: #E9E9E9;
+    background-color: #10C9C3;
   }
 
 
 .aboutThree .container .count-icon{
     margin: auto 5%;
-    color: #10C9C3;
+    color: #fff;
   }
 
 .aboutThree .container .count-icon i{
@@ -498,7 +532,7 @@ header .navbar-nav a{
 .aboutThree .container .counter span{
       font-size: 3rem;
       font-weight: 700;
-      color: #10C9C3;
+      color: #fff;
   }
 
 
@@ -507,7 +541,7 @@ header .navbar-nav a{
     font-size: .9rem;
     font-weight: 800;
     text-transform: uppercase;
-    color: #10C9C3;
+    color: #fff;
 }
 
 
@@ -519,6 +553,7 @@ header .navbar-nav a{
 
 .work{
     padding: 5% 0;
+    background-color: #E9E9E9;
   }
 
 .work h1{
@@ -639,7 +674,30 @@ header .navbar-nav a{
 
 .process {
     padding: 5% 0;
+    background-color: #fff;
+}
+
+
+
+    /* Services CSS  */
+
+
+.services{
+    padding: 5% 0;
     background-color: #E9E9E9;
+}
+
+
+.services .row span>i{
+    font-size: 2.5rem;
+    margin: 10% 0;
+    color: #10C9C3;
+}
+
+
+.services .row .col-sm-3 p{
+    color: #343434c2;
+    font-size: .7rem;
 }
 
 
@@ -651,12 +709,47 @@ header .navbar-nav a{
 
 
 
-    #testimonial .container{
-        width: auto;
-        height: 100vh;
-        background-color: rgb(0, 255, 157);
-      }
+.testimonial{
+    padding: 5% 0;
+    background-color: #10C9C3;
+}
 
+.testimonial .container {
+    margin: auto;
+  }
+
+
+.testimonial .row .item span{
+    font-size: 1.5rem;
+  }
+
+
+.testimonial .row .item h4{
+    width: 100%;
+    padding: 5% 20% 2% 20%;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+  
+.testimonial .row .item p{
+    width: 100%;
+    font-size: .9rem;
+    padding: 0% 0% 5% 0%;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+    /* Testimonial Two CSS  */
+
+
+.testimonial-two .d-flex img{
+    padding: 5% 2%;
+}
 
 
 
@@ -665,11 +758,85 @@ header .navbar-nav a{
 
 
 
-    #contact .container{
-        width: auto;
-        height: 100vh;
-        background-color: rgb(229, 255, 0);
-      }
+.contact{
+    padding: 5% 0;
+    background-color: #E9E9E9;
+}
+
+
+
+.contact p{
+    color: #343434c2;
+    font-size: 1rem;
+}
+
+
+.contact form{
+    padding: 0% 20%;
+}
+
+
+.contact #name {
+    width: 45%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 22px;
+    float: left;
+}  
+
+.contact #email {
+    width: 45%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: right;
+}  
+
+
+.contact #title{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+.contact textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 22px;
+    height: 150px;
+    resize: vertical;
+}
+
+
+
+
+
+.contact input[type=submit] {
+    background-color: #10C9C3;
+    color: #E9E9E9;
+    padding: 1.2% 3%;
+    border: 2px solid #10C9C3;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 1%;
+    border-radius: 5px;
+    transition: all ease-in-out 1s;
+}
+  
+
+.contact input[type=submit]:hover {
+    background-color: #E9E9E9;
+    color: #10C9C3;
+    border: 2px solid #10C9C3;
+}
 
 
 
@@ -711,7 +878,4 @@ header .navbar-nav a{
 
 
 
-
-      /* MEDIA QUERIES STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
