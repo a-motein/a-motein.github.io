@@ -72,7 +72,13 @@ header img{
 }
 
 
-header .navbar>.container,header .navbar>.container-fluid,header .navbar>.container-lg,header .navbar>.container-md,header .navbar>.container-sm,header .navbar>.container-xl,header .navbar>.container-xxl{
+header .navbar>.container,
+header .navbar>.container-fluid,
+header .navbar>.container-lg,
+header .navbar>.container-md,
+header .navbar>.container-sm,
+header .navbar>.container-xl,
+header .navbar>.container-xxl{
     align-items: flex-start;
 }
 
@@ -351,7 +357,7 @@ header .navbar-nav a{
 
 
 #particles-js .headText.position-absolute span{
-    font-size: 1.5em;
+    font-size: 3.5rem;
     font-weight: 700;
     color: #10C9C3;
 }
