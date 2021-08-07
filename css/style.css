@@ -755,6 +755,7 @@ header .navbar-nav a{
 
 .testimonial-two .d-flex img{
     padding: 5% 2%;
+    width: auto;
 }
 
 

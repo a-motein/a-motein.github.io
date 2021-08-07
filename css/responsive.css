@@ -39,12 +39,76 @@
     }
 
 
+header .navbar .navbar-collapse.scrolled-color,
+header .navbar .navbar-toggler.scrolled-color{
+    background-color: #10C9C3;
+    width: auto;
+    height: 100%;
+    transition: all ease-in-out .5s;
+}
+
+
+header .navbar .navbar-collapse{
+    background-color: #E9E9E9;
+}
+
+
+
+
+
+  /* About Two Responsive CSS  */
+
+
+
+  .aboutTwo{
+    padding: 5% 0;
+    background-image: none;
+    background-position: right, center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #D1D4DD;
+}
+
+
+
+
+
 
 
   /* Services Responsive CSS  */
 
     .work .mix {
         width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+    }
+
+
+
+
+    /* Testimonial Two Responsive CSS  */
+
+
+    .testimonial-two .d-flex img{
+        width: 30%;
+    }
+    
+
+
+
+
+    /* Footer Responsive CSS  */
+
+
+    #footSec .row p{
+        font-size: .6rem;
+        color: #E9E9E9;
+        margin: 3px;
+    }
+    
+    
+    #footSec .row ul li a{
+        font-size: .6rem;
+        color: #E9E9E9;
+        margin: 3px;
     }
 
 
@@ -102,6 +166,35 @@
     }
 
 
+    header .navbar .navbar-collapse.scrolled-color,
+    header .navbar .navbar-toggler.scrolled-color{
+    background-color: #10C9C3;
+    width: auto;
+    height: 100%;
+    transition: all ease-in-out .5s;
+    }
+
+    header .navbar .navbar-collapse{
+        background-color: #E9E9E9;
+    }
+
+
+
+
+      /* About Two Responsive CSS  */
+
+
+
+.aboutTwo{
+    padding: 5% 0;
+    background-image: none;
+    background-position: right, center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #D1D4DD;
+}
+
+
 
 
 
@@ -110,6 +203,39 @@
     .work .mix {
         width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
     }
+
+
+
+    /* Testimonial Two Responsive CSS  */
+
+
+    .testimonial-two .d-flex img{
+        width: 30%;
+    }
+
+
+
+
+
+
+    /* Footer Responsive CSS  */
+
+
+    #footSec .row p{
+        font-size: .7rem;
+        color: #E9E9E9;
+        margin: 3px;
+    }
+    
+    
+    #footSec .row ul li a{
+        font-size: .7rem;
+        color: #E9E9E9;
+        margin: 3px;
+    }
+
+
+
     
 
 
@@ -171,6 +297,36 @@
     }
 
 
+    header .navbar .navbar-collapse.scrolled-color,
+    header .navbar .navbar-toggler.scrolled-color{
+    background-color: #10C9C3;
+    width: auto;
+    height: 80px;
+    transition: all ease-in-out .5s;
+}
+
+header .navbar .navbar-collapse{
+    background-color: transparent;
+}
+
+
+
+
+
+  /* About Two Responsive CSS  */
+
+
+
+  .aboutTwo{
+    padding: 5% 0;
+    background-image: url(../imgs/Progress-img.jpg);
+    background-position: right, center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #D1D4DD;
+}
+
+
 
 
 
@@ -180,6 +336,38 @@
     .work .mix {
         width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
     }
+
+
+
+    /* Testimonial Two Responsive CSS  */
+
+
+    .testimonial-two .d-flex img{
+        padding: 5% 2%;
+        width: auto;
+    }
+
+
+
+
+    /* Footer Responsive CSS  */
+
+    #footSec .row p{
+        font-size: .8rem;
+        color: #E9E9E9;
+        margin: 3px;
+    }
+    
+    
+    #footSec .row ul li a{
+        font-size: .8rem;
+        color: #E9E9E9;
+        margin: 3px;
+    }
+
+
+
+    
 
 
 
@@ -236,6 +424,34 @@
     }
 
 
+    header .navbar .navbar-collapse.scrolled-color,
+    header .navbar .navbar-toggler.scrolled-color{
+    background-color: #10C9C3;
+    width: auto;
+    height: 80px;
+    transition: all ease-in-out .5s;
+}
+
+header .navbar .navbar-collapse{
+    background-color: transparent;
+}
+
+
+
+
+  /* About Two Responsive CSS  */
+
+
+
+  .aboutTwo{
+    padding: 5% 0;
+    background-image: url(../imgs/Progress-img.jpg);
+    background-position: right, center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #D1D4DD;
+}
+
 
 
 
@@ -248,6 +464,39 @@
     .work .mix{
         width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
     }
+
+
+
+
+    /* Testimonial Two Responsive CSS  */
+
+
+    .testimonial-two .d-flex img{
+        padding: 5% 2%;
+        width: auto;
+    }
+
+
+
+
+
+    /* Footer Responsive CSS  */
+
+    #footSec .row p{
+        font-size: .8rem;
+        color: #E9E9E9;
+        margin: 3px;
+    }
+    
+    
+    #footSec .row ul li a{
+        font-size: .8rem;
+        color: #E9E9E9;
+        margin: 3px;
+    }
+
+
+
 
 
 
@@ -306,6 +555,37 @@
     }
 
 
+    header .navbar .navbar-collapse.scrolled-color,
+    header .navbar .navbar-toggler.scrolled-color{
+    background-color: #10C9C3;
+    width: auto;
+    height: 80px;
+    transition: all ease-in-out .5s;
+}
+
+
+header .navbar .navbar-collapse{
+    background-color: transparent;
+}
+
+
+
+
+
+  /* About Two Responsive CSS  */
+
+
+
+  .aboutTwo{
+    padding: 5% 0;
+    background-image: url(../imgs/Progress-img.jpg);
+    background-position: right, center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #D1D4DD;
+}
+
+
 
 
 
@@ -317,6 +597,38 @@
     .work .mix{
         width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
     }
+
+
+
+
+    /* Testimonial Two Responsive CSS  */
+
+
+    .testimonial-two .d-flex img{
+        padding: 5% 2%;
+        width: auto;
+    }
+
+
+
+
+    /* Footer Responsive CSS  */
+
+    #footSec .row p{
+        font-size: .8rem;
+        color: #E9E9E9;
+        margin: 3px;
+    }
+    
+    
+    #footSec .row ul li a{
+        font-size: .8rem;
+        color: #E9E9E9;
+        margin: 3px;
+    }
+
+
+
 
 
 
@@ -376,6 +688,36 @@
     }
 
 
+    header .navbar .navbar-collapse.scrolled-color,
+    header .navbar .navbar-toggler.scrolled-color{
+    background-color: #10C9C3;
+    width: auto;
+    height: 80px;
+    transition: all ease-in-out .5s;
+}
+
+
+header .navbar .navbar-collapse{
+    background-color: transparent;
+}
+
+
+
+
+  /* About Two Responsive CSS  */
+
+
+
+  .aboutTwo{
+    padding: 5% 0;
+    background-image: url(../imgs/Progress-img.jpg);
+    background-position: right, center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #D1D4DD;
+}
+
+
 
 
 
@@ -387,6 +729,41 @@
     .work .mix{
         width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
     }
+
+
+
+
+
+
+    /* Testimonial Two Responsive CSS  */
+
+
+    .testimonial-two .d-flex img{
+        padding: 5% 2%;
+        width: auto;
+    }
+
+
+
+
+
+    /* Footer Responsive CSS  */
+
+    #footSec .row p{
+        font-size: .8rem;
+        color: #E9E9E9;
+        margin: 3px;
+    }
+    
+    
+    #footSec .row ul li a{
+        font-size: .8rem;
+        color: #E9E9E9;
+        margin: 3px;
+    }
+
+
+
 
 
 
